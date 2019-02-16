@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative 'boot'
 
 require 'rails'
@@ -19,7 +17,9 @@ require 'sprockets/railtie'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# Module For Study Aprication
 module StudyRailsApp
+  # Application top level class
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
