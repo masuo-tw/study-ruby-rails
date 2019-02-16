@@ -29,5 +29,13 @@ module StudyRailsApp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    
+    # Add generator setting
+    config.generators do |g|
+      g.skip_routes true
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+    end
   end
 end
