@@ -5,13 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
 
-* System dependencies
+* Rails 5.2.2
 
 * Configuration
 
-* Database creation
+* Need bundle exec before another command 
+  ex) bundle exec git commit -m "comment"
 
 * Database initialization
 
@@ -21,4 +22,3 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...

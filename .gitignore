@@ -29,3 +29,5 @@
 /bin/
 /vender/
 /vendor/
+.idea
+.DS_Store
