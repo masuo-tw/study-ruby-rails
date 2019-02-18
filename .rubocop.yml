@@ -1,3 +1,12 @@
+inherit_from: .rubocop_todo.yml
+
+
+AllCops:
+  Exclude:
+    - "db/migrate/20190218122122_devise_create_users.rb"
+    - "vendor/**/*" # rubocop config/default.yml
+    - "db/schema.rb"
+    - "spec/**/*"
 
 LineLength:
   Max: 200
@@ -11,3 +20,14 @@ Style/FrozenStringLiteralComment:
 Metrics/BlockLength:
   Exclude:
     - 'config/environments/development.rb'
+
+AllCops:
+  Exclude:
+    - "db/migrate/20190218122122_devise_create_users.rb"
+    - "vendor/**/*" # rubocop config/default.yml
+    - "spec/**/*"
+
+Metrics/AbcSize:
+  Exclude:
+    - "db/migrate/20190218122122_devise_create_users.rb"
+  Enabled: false
